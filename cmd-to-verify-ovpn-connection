@@ -1,0 +1,17 @@
+#once you start vpn then run this command in remote vpn server to verify vpn client connectivity.
+
+sudo cat /var/log/openvpn-status.log
+sudo netstat -tunap | grep openvpn
+
+
+#install openvpn-client
+sudo apt update
+sudo apt install openvpn
+
+#remove openvpn old entry
+sudo rm /etc/apt/sources.list.d/openvpn3.list
+sudo apt update
+
+#then run openvpn client to connect remote vpn server
+sudo Hassan.Ovpn /etc/openvpn/    ---> move client Hassan.Ovpn file to etc if not available in etc.
+sudo openvpn Hassan.Ovpn
