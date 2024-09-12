@@ -83,16 +83,16 @@ https://github.com/AliBigdeli/OpenVPN-Server-Setup#step-3-create-user     ----gi
 
 ### FOR LINUX Install OpenVPN client into your local (if it's not already installed):
 
-  sudo apt update
-  sudo apt install openvpn
+          sudo apt update
+          sudo apt install openvpn
 
 Start OpenVPN with a configuration file: You need an .ovpn configuration file to connect to a VPN. You can start OpenVPN using this file with the following command:
 
-  sudo openvpn --config /path/to/your-vpn-config-file.ovpn
+          sudo openvpn --config /path/to/your-vpn-config-file.ovpn
 
   Like 
 
-  sudo openvpn --config /home/hassan/fakher.ovpn 
+          sudo openvpn --config /home/hassan/fakher.ovpn 
 
 ### For window install openvpn software in windows system. and add .ovpn client file(profile) that got from the admin like "fakher.ovpn" in my case in openvpn client software import profiles section.. it will connect openvpn client to openvpn remote server..
 
