@@ -6,13 +6,13 @@ https://github.com/AliBigdeli/OpenVPN-Server-Setup#step-3-create-user     ----gi
 
 ## After successfully setting up openvpn. You will find 1 folder and 1 file named below in the same directory..
 
-    1- OpenVpn  
-    2- openvpn-install.sh
+        1- OpenVpn  
+        2- openvpn-install.sh
 
 ## Now its time to add users(profiles)  to openvpn server. Use below commands for this
 
-  chmod +x openvpn-install.sh
-  sudo ./openvpn-install.sh
+        chmod +x openvpn-install.sh
+        sudo ./openvpn-install.sh
 
   After executing **./openvpn-install.sh** you will see the option like this.. do steps   
 
