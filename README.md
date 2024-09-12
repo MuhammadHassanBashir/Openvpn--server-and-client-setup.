@@ -79,6 +79,8 @@ https://github.com/AliBigdeli/OpenVPN-Server-Setup#step-3-create-user     ----gi
             The configuration file has been written to /root/fakher.ovpn.  ----------------------------> path of .ovpn file that need to share to the user, So user can use this and connect openvpn server from local system. you can **cat the .ovpn file from the path and with this make .ovpn file having same name on to your system and send this file to user** or you can use **scp or rsync command for downloading it from remote server to you localsystem**.                 
             Download the .ovpn file and import it in your OpenVPN client.
 
+        remember to switch the root user with **sudo su** because other user have no right to go to the /root/file.ovpn file and read the file...
+
 ## How to connect from local system to openvpn server by using .ovpn file
 
 ### FOR LINUX Install OpenVPN client into your local (if it's not already installed):
